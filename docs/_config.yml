@@ -4,9 +4,7 @@ baseurl: ""
 url: "https://just-the-docs.com"
 repository: just-the-docs/just-the-docs
 
-theme:
-  name: null
-  custom_dir: "theme/"
+theme: jtd
 
 permalink: pretty
 
