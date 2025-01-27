@@ -1,1 +1,13 @@
 // custom SCSS (or CSS) goes here
+
+#btn-switch-theme[data-theme="light"] {
+  & > #icon-theme-light {
+    display: none;
+  }
+}
+
+#btn-switch-theme[data-theme="dark"] {
+  & > #icon-theme-dark {
+    display: none;
+  }
+}
